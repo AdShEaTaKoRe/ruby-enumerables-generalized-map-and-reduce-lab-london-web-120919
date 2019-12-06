@@ -9,8 +9,8 @@ def map(array)
   new
 end
 
-def reduce(array, starting_point)
-  total = starting_point
+def reduce(array)
+  total = 0
   i = 0
   while i < array.length
   total += yield (array[i])
