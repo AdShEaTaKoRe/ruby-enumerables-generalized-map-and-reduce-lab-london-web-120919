@@ -4,7 +4,7 @@ def map(array)
   yield
 end
 
-map(array){puts |b| b * -1}
+map([1,2,3]){puts |b| b * -1}
 
 def reduce(source_array, optional_value = 0)
 end
