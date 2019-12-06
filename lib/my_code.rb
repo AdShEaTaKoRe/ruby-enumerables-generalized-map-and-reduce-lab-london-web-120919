@@ -1,7 +1,7 @@
 # Your Code Here
-def my_own_map(source_array)
-  yield {|b| b * - 1}
-  my_own_map
+def map(source_array)
+  yield 
+  my own map
 end
 
 def reduce(source_array, optional_value = 0)
