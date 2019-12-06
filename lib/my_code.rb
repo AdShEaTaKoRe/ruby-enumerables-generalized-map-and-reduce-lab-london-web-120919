@@ -1,5 +1,5 @@
 # Your Code Here
-def map(source_array, block)
+def my_own_map(source_array){}
   
 end
 
