@@ -16,6 +16,7 @@ def reduce(array, starting_value = nil)
   else
     total = array[0]
   i = 0
+  end
   while i < array.length
   total = yield(total, array[i])
   i += 1
