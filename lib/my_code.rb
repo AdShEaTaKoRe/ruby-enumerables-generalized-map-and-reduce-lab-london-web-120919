@@ -16,5 +16,5 @@ def reduce(array, starting_point)
   total += yield (array[i])
   i += 1
   end
-  tota
+  total
 end
